@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2ee1441-e9f0-4f84-8bed-f55d08438bc3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/IMG_4588.JPG" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tutDjango.iws" />
@@ -430,7 +429,13 @@
       <option name="project" value="LOCAL" />
       <updated>1442602014043</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="complete chapter 5">
+      <created>1442604226484</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1442604226484</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
