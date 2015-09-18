@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2ee1441-e9f0-4f84-8bed-f55d08438bc3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/085.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/world.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/rango/index.html" afterPath="$PROJECT_DIR$/templates/rango/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutDjango/settings.py" afterPath="$PROJECT_DIR$/tutDjango/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rango/views.py" afterPath="$PROJECT_DIR$/rango/views.py" />
+    <list default="true" id="c2ee1441-e9f0-4f84-8bed-f55d08438bc3" name="Default" comment="complete templates and static">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/IMG_4589.JPG" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tutDjango.iws" />
@@ -479,7 +475,13 @@
       <option name="project" value="LOCAL" />
       <updated>1442578829756</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="complete templates and static">
+      <created>1442597055779</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1442597055779</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -521,7 +523,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="complete chapter 4 and going on 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete chapter 4 and going on 5" />
+    <MESSAGE value="complete templates and static" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete templates and static" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
