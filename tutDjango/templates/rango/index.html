@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <br lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Rango</title>
-</head>
-<br>
-    <h1>Rango says...</h1>
-    Hello World! <b>{{boldmessage}}</b><br/>
-    <a href="/rango/about">About</a><br/>
-</body>
+{% load staticfiles %}
+<html>
+    <head>
+        <title>Rango</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{% static "css/style.css" %}"/>
+        <script src="{% static "js/jquery.js" %}"></script>
+    </head>
+
+    <body>
+        <h1>Rango says...</h1>
+        Hello World! <b>{{boldmessage}}</b><br/>
+        <a href="/rango/about">About</a><br/>
+        <img src="{% static "images/IMG_4589.JPG" %}" alt="#her and #him"/>
+    </body>
 </html>
