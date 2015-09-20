@@ -3,16 +3,28 @@
 {% load staticfiles %}
 <html>
     <head>
-        <title>Rango</title>
+        <title>Rango fetched from db</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="{% static "css/style.css" %}"/>
-        <script src="{% static "js/jquery.js" %}"></script>
+        <!-- <link rel="stylesheet" href="{% static "css/style.css" %}"/> -->
+        <!-- <script src="{% static "js/jquery.js" %}"></script> -->
     </head>
 
     <body>
-        <h1>Rango says...</h1>
-        Hello World! <b>{{boldmessage}}</b><br/>
-        <a href="/rango/about">About</a><br/>
+        <h1>Rango says...</h1> Hello World!
+        <b>{{boldmessage}}</b>
+        <br/>
+        {% if categories %}
+            <ul>
+                {% for category in categories %}
+                <li><a href="/rango/category/{{ category.slug }}">{{ category.name }}</a></li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <b>There is no category at the moment!</b>
+        {% endif %}
+
+        <a href="/rango/about">About</a>
+            <br/>
         <img src="{% static "images/IMG_4589.JPG" %}" alt="#her and #him" height=600 width=800/>
     </body>
 </html>
